@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Pacifico&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kanit&family=Pacifico&family=Yellowtail&display=swap');
+
+:root{
+    --roxo: #4B2175;
+    --roxoArrosado:#C38FF7;
+    --lilas:#9D45F5;
+    --roxoEscuro: #420E75;
+    --violeta:#7C36C2;
+}
+
+/* #28374B  azul #A65C66 rosa #9E3843 <!--vermelho-arosado */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    
+}
+
+body{
+    
+    
+}
+
+header{
+    background-image: linear-gradient(to right,var(--roxoEscuro),var(--lilas));
+    margin:-0.4px;
+    padding: 13px;
+    display: -webkit-box;
+}
+
+header h1{
+    font-family: "great Vibes", sans-serif;
+    font-size: 40px;
+    text-shadow: 3px 4px 3px rgba(2, 1, 1, 0.5);
+    color: #fff;
+    margin: 20px 10px 0px ;
+    width: 200px;
+}
+nav {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+nav a{
+    color: var(--roxoArrosado);
+    margin-left: 20px;
+    padding: 1px;
+    text-decoration:none;
+    
+}
+
+h2{
+    color: #9E3843;
+}
+
+main{
+    background-color: white;
+    width: 800px;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 8px 8px 6px rgba(139, 130, 115, 0.706);
+}
+p{
+    text-align: justify;
+}
+
+a:hover{
+    background-color: #9B6AC3;
+}
+
+a:active{
+    background-color: #9B6AC3;
+    text-decoration: underline;
+}
+
+/*#principal{
+    width: 810px;
+    padding: 6px;
+    margin-bottom: 1px;
+    background-color: #d16bb2b4;
+    border-radius: 7px;
+      
+}*/
+h1#titulo{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    margin: 0px;
+    margin-top: 60px;
+    color: #f7f5f8;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: 3px 4px 3px rgba(2, 1, 1, 0.5);
+}
+footer{
+    background-color: rgba(22, 22, 22, 0.664);
+    color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
